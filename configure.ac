@@ -273,7 +273,7 @@ fi
 # Check whether we want to switch on glass making
 AC_ARG_ENABLE([glass-making],
    [AS_HELP_STRING([--enable-glass-making],
-     [Zeros the gravitational acceleration of all particles with an ID smaller than @<:@yes/no@:>@]
+     [Activate the glass-making procedure by reversing the sign of gravity @<:@yes/no@:>@]
    )],
    [gravity_glass_making="$enableval"],
    [gravity_glass_making="no"]
